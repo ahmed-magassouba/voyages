@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Lambola;
+    src: url(../font/Lambola\ Demo.ttf);
+}
+
+body
+{
+    background-color: #bfff80;
+}
+
+h1, h2
+{
+    font-family: Lambola;
+    margin: 20px;
+}
+
+p
+{
+    font-size: 20px;
+    line-height: 25px;
+    margin: 15px;
+}
+
+p, ul
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+article
+{
+    width: 65%;
+    margin: auto;
+}
+
+#titre
+{
+    background-image: url(../img/thailandflag.png);
+    background-position: center;
+    background-size: contain;
+
+    font-family: Lambola;
+    color: white;
+    letter-spacing: 2px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#titre img
+{
+    width: 30vw;
+    height: auto;
+}
+
+#resume, #liste
+{
+    text-align: center;
+    background-color: #e6ffcc;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+#resume
+{
+    height: 30vh;
+}
+
+#liste li
+{
+    width: 40%;
+}
+
+#navpage
+{
+    background-color: gold;
+    border: 5px solid goldenrod;
+    border-radius: 0px 0px 0px 10px;
+    width: auto;
+    position: sticky;
+    top: 0;
+    right: 0;
+    float: right;
+    padding: 5px;
+}
+
+#navpage a
+{
+    text-decoration: none;
+    color: #666600;
+    font-family: Lambola;
+    font-size: 18px;
+}
+
+#navpage ul
+{
+    display: flex;
+    flex-direction: column;
+}
