@@ -3,6 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*animation*/
+
+@keyframes couleur{
+    from{
+       
+    }
+    50%{
+        background-color:#8080ff;
+        transform: scale(1.1);
+    }
+    to{
+        
+    }
+}
+
+
 /*-------------------header---------------------*/
 header{
     display: flex;
@@ -114,6 +131,22 @@ padding-bottom: 0%;
 font-size: 3em;
 color:#8080ff;
 
+}
+
+.liena{
+    box-shadow: inset 5px 5px 10px #5a5a5a,
+    inset -5px -5px 10px #ffffff;
+    border-radius: 30%;
+    text-decoration: none;
+    color:red ;
+ 
+    
+}
+.liena:hover{
+  
+    animation-name: couleur;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
 }
 
 
